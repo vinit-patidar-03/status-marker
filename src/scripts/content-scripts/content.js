@@ -99,7 +99,7 @@ function highlightStatuses(activeColor, urgentColor, closedColor) {
                 const startDateWithTime = companyRow.childNodes[10]?.innerText?.trim() || '';
                 const endDateWithTime = companyRow.childNodes[11]?.innerText?.trim() || '';
                 if (startDateWithTime && endDateWithTime) {
-                    const status = isDateInRange('17-10-2024 17:00', startDateWithTime, endDateWithTime);
+                    const status = isDateInRange(currentDateWithTime, startDateWithTime, endDateWithTime);
                     let highlightColor = '';
                     let fontWeight = '';
                     if (status === "Active") {
