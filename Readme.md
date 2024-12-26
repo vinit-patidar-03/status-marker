@@ -49,8 +49,7 @@ project-folder/
 |   |   |-- pop-scripts/popup.js
 |   |   |-- content-scripts/content.js
 |   |   |-- event-scripts/background.js
-|   |-- styles/
-|       |-- popup.css
+|   |-- popup.css
 |-- icons/
 |   |-- icon16.png
 |   |-- icon32.png
