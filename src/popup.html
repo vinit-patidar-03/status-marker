@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>ERP Status Marker</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="h-primary">ERP Status Marker</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Status</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Active</td>
+                    <td>
+                        <input type="color" name="active" id="active" value="#008000" class="color-picker">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Urgent</td>
+                    <td>
+                        <input type="color" name="urgent" id="urgent" value="#F14A00" class="color-picker">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Closed</td>
+                    <td>
+                        <input type="color" name="closed" id="closed" value="#A0153E" class="color-picker">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="btn-container">
+            <button class="btn" id="submit">Set Theme</button>
+            <button class="resetBtn" id="reset">Reset Theme</button>
+        </div>
+
+    </div>
+    <script src="./scripts/pop-scripts/popup.js"></script>
+</body>
+
+</html>

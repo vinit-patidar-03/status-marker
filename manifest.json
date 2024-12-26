@@ -1,0 +1,28 @@
+{
+  "name": "ERP Status Marker",
+  "version": "1.0",
+  "description": "Highlights IIT KGP ERP company openings as Active, Urgent, or Closed, with customizable colors for easy tracking.",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "./src/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "./src/scripts/event-scripts/background.js"
+  },
+  "host_permissions": ["https://erp.iitkgp.ac.in/IIT_ERP3/*"],
+  "permissions": ["tabs", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://erp.iitkgp.ac.in/IIT_ERP3/*"],
+      "js": ["./src/scripts/content-scripts/content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}

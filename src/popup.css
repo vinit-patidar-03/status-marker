@@ -1,0 +1,76 @@
+.container{
+    width: 300px;
+}
+
+.h-primary{
+    font-family: "Baloo Bhaijaan 2", serif;
+    color: #28186f;
+    text-align: center;
+    font-size: 25px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #28186f;
+}
+
+th{
+    background-color: #28186f;
+    color: white;
+    font-size: 15px;
+}
+
+td{
+    color: #28186f;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: #28186f;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: #43319e;
+    color: white;
+    transition: all 0.5s;
+}
+
+.resetBtn{
+    background-color: rgb(220, 21, 21);
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    transition: all 0.5s;
+}
+
+.resetBtn:hover{
+    background-color: rgb(190, 33, 33);
+    color: white;
+    transition: all 0.5s;
+}
