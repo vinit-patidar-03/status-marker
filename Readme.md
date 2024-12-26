@@ -69,7 +69,7 @@ project-folder/
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://chatgpt.com/c/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/vinit-patidar-03/status-marker/blob/master/LICENSE) file for details.
 
 ## Contact
 
