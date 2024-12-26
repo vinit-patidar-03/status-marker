@@ -76,4 +76,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 For any inquiries, feel free to reach out:
 
 - **Author** : Vinit Patidar
-- **Email** : [vinitpatidar780@gmail.com](mailto:vinitpatidar@example.com)
+- **Email** : [vinitpatidar780@gmail.com](mailto:vinitpatidar780@gmail.com)
