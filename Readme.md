@@ -59,6 +59,10 @@ project-folder/
 |-- manifest.json
 ```
 
+## Video Demonstration
+For demonstration purposes and testing, the date `17-10-2024 17:00` has been used to validate the extension's functionality.
+[Video Link](https://github.com/user-attachments/assets/251fd2bb-5a6a-449b-972e-a1e69fa7c9c2)
+
 ## Contributing
 
 1. Fork the repository.
