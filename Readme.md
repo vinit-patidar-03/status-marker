@@ -46,7 +46,7 @@ project-folder/
 |-- src/
 |   |-- popup.html
 |   |-- scripts/
-|   |   |-- popup.js
+|   |   |-- pop-scripts/popup.js
 |   |   |-- content-scripts/content.js
 |   |   |-- event-scripts/background.js
 |   |-- styles/
