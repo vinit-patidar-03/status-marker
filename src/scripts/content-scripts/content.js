@@ -124,10 +124,10 @@ function highlightStatuses(activeColor, urgentColor, closedColor) {
 
 function observeIframeContent(iframe) {
     if (!iframe) return;
-
     iframe.addEventListener('load', () => {
         const iframeDocument = iframe.contentWindow.document;
         const observer = new MutationObserver(() => {
+            loadColorsFromStorage();
             highlightStatuses(activeColor, urgentColor, closedColor);
         });
         observer.observe(iframeDocument.body, { childList: true, subtree: true });
