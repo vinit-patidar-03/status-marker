@@ -48,16 +48,16 @@ function daysDifference(date1, date2) {
 
 function isDateInRange(currentDateWithTime, startDateWithTime, endDateWithTime, rangeInDays = 1) {
     const currentDateDay = parseInt(currentDateWithTime.split(' ')[0].split('-')[0]);
-    const startDateDay = parseInt(startDateWithTime.split(' ')[0].split('-')[0]);
-    const endDateDay = parseInt(endDateWithTime.split(' ')[0].split('-')[0]);
+    const startDateDay = parseInt(startDateWithTime.split(' ')[0].split('-')[2]);
+    const endDateDay = parseInt(endDateWithTime.split(' ')[0].split('-')[2]);
 
     const currentDateMonth = parseInt(currentDateWithTime.split(' ')[0].split('-')[1]);
     const startDateMonth = parseInt(startDateWithTime.split(' ')[0].split('-')[1]);
     const endDateMonth = parseInt(endDateWithTime.split(' ')[0].split('-')[1]);
 
     const currentDateYear = parseInt(currentDateWithTime.split(' ')[0].split('-')[2]);
-    const startDateYear = parseInt(startDateWithTime.split(' ')[0].split('-')[2]);
-    const endDateYear = parseInt(endDateWithTime.split(' ')[0].split('-')[2]);
+    const startDateYear = parseInt(startDateWithTime.split(' ')[0].split('-')[0]);
+    const endDateYear = parseInt(endDateWithTime.split(' ')[0].split('-')[0]);
 
     const currentHour = parseInt(currentDateWithTime.split(' ')[1].split(':')[0]);
     const startHour = parseInt(startDateWithTime.split(' ')[1].split(':')[0]);
